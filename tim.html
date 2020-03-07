@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Football Data - Detail Team</title>
+  <meta name="description" content="Football Data"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="manifest" href="/manifest.json">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" href="icon.png">
+  <meta name="theme-color" content="#00897B"/>
+</head>
+<style type="text/css">
+  
+  .kotakTim{
+    margin-left: 20%;
+    margin-top: 5%;
+  }
+
+  .kotakTim h2{
+    color: #02C6F8;
+    display: inline;
+    margin-left: 5%;
+  }
+
+  .save{
+    background-color: #02C6F8;
+    color: white;
+    padding: 10px;
+  }
+
+  .delete{
+    background-color: red;
+    color: white;
+    padding: 10px;
+  }
+</style>
+<body>
+
+   <div class="navbar-fixed">
+    <!-- Navigasi -->
+    <nav class="teal" role="navigation">
+      <div class="nav-wrapper container">
+        
+        <a class="hide-on-small-only" href="./index.html"  class="brand-logo" id="logo-container"> < </a>
+<a class="hide-on-small-only" class="brand-logo" style="margin-left:50px;"> Team Profile Detail </a>
+
+
+
+        <a href="javascript:history.back()" class="sidenav-trigger">
+          
+        </a>
+        
+      </div>
+    </nav>
+  </div>
+  
+  <div class="container" id="body-content"></div>
+  <script src="js/materialize.min.js"></script>
+  
+  <script src="js/api.js"></script>
+  <script type="text/javascript" src="js/idb.js"></script>
+  <script type="text/javascript" src="js/db.js"></script>
+  <script type="text/javascript" src="team.js"></script>
+  <div class="kotakTim">
+
+  <div id="teamHeader">
+         
+  </div>
+  <div id="teamBody">
+      
+  </div>
+
+        <BUTTON class="save" id="save">SAVE</BUTTON>
+        <BUTTON class="delete" id="delete">DELETE</BUTTON>
+  
+</div>
+</body>
+</html>
