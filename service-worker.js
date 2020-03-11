@@ -27,7 +27,7 @@ workbox.precaching.precacheAndRoute([
     { url : 'team.js', revision:'1'},
     { url : 'assets/cl.jpg', revision:'1'}
 ],{
-	ignoreUrlParametersMatching:[/.*/]
+	ignoreURLParametersMatching:[/.*/]
 });
 
 workbox.routing.registerRoute(
